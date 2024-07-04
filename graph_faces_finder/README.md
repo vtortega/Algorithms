@@ -52,7 +52,7 @@ One example of a face outputed by `faces_ploter.py`:
 <img width="400" alt="Screenshot 2024-07-04 at 02 57 06" src="https://github.com/vtortega/Algorithms/assets/112141870/974a89c4-c586-4d00-a2b6-49e5cbd9d1ce">
 
 
-The output format of the C++ code matches the input of the Python code so that you just need to get the output on input into the python program.
+The output format of the C++ code matches the input of the Python code so that you just need to get the output of the faces finder into the python program.
 
 ### Example Input of C++ program
 
