@@ -2,7 +2,7 @@
 
 The problem approached here is to find the faces of a graph that is connect. The algorithm consists in checking, for each vertex of the graph, the edge that has the smallest angle clockwise or not, depending if its passing through the inside or outside of the edge. And that's the catch of the algorithm. We consider one edge equivalent to two half edges so that we only pass on each half edge once, so that the faces are formed correctly. That way we avoid appendixes too:
 
-<img width="158" alt="Screenshot 2024-07-04 at 02 56 40" src="https://github.com/vtortega/Algorithms/assets/112141870/3d8e7e5b-b89c-4b62-8d99-ddc872ec44de">
+<img width="358" alt="Screenshot 2024-07-04 at 02 56 40" src="https://github.com/vtortega/Algorithms/assets/112141870/3d8e7e5b-b89c-4b62-8d99-ddc872ec44de">
 
 This algorithm is not, by far, the best to find the faces. Its complexity can approach being exponential if a graph is fully connected and the algorithm starts checking the wrong edges. We cold have floating point problem with the radians of the angles too, but that's an easier problem to solve.
 One upgrade that could be made to this algorithm is to sort the edges as it passes through them for the first time, so that the next vertex knows its angle already, but it would take more memory.
