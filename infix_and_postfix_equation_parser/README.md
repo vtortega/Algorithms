@@ -38,7 +38,7 @@ None of the functions contain nested loops, ensuring that no function exceeds O(
 To make the program more robust, try-catch blocks were used. When an issue is detected while reading or calculating an expression, the operation terminates without crashing the program, moving on to the next task. This technique is applied throughout the code to check for expected actions, providing important feedback on encountered issues. For example, division by zero is tested every time `evaluate()` is called on a division node. This strategy effectively handles issues such as 3 / (3 - 1 * 3), which might not be detected otherwise and cause a lot of trouble.
 
 # Running the program
-Execute the program with `make run file=filename`. `filename` should be the name of the file the serves as input, like `equations.in`.
+Execute the program with `make run file=filename`. `filename` should be the name of the file that serves as input, like `equations.in`.
 
 You can execute `make clean` to clean the objects and executable files too.
 
