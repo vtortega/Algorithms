@@ -41,3 +41,7 @@ To make the program more robust, try-catch blocks were used. When an issue is de
 Execute the program with `make run file=filename`. `filename` should be the name of the file the serves as input, like `equations.in`.
 
 You can execute `make clean` to clean the objects and executable files too.
+
+<img width="682" alt="Screenshot 2024-07-04 at 12 51 43" src="https://github.com/vtortega/Algorithms/assets/112141870/4e03939a-b986-4f4f-ac8b-10ae7fd0c429">
+
+This is the graph showing the number of equations made on the X axis and time(in ms) on the Y axis
