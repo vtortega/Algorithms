@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     }
 
     std::string line, equation;
-    bool infixa, posfixa = false;    //algumas funcoes exigem sabermos qual tipo de expressão é;
+    bool infixa, posfixa = false;    // Algumas funcoes exigem sabermos qual tipo de expressão é.
     std::ifstream inFile(filename);
 
     if (!inFile) {
@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
                 std::cout << "INFIXA: " << equation << std::endl;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
 
         }
@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
                 std::cout << "POSFIXA: " << equation << std::endl;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
 
 
@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
                 std::cout << "INFIXA: " << parser.toInfix() << std::endl;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
 
         }
@@ -87,7 +87,7 @@ int main(int argc, char* argv[]) {
                 std::cout << "POSFIXA: " << parser.toPostfix() << std::endl;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
 
         }
@@ -102,7 +102,7 @@ int main(int argc, char* argv[]) {
             delete root;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
         }
 
@@ -114,7 +114,7 @@ int main(int argc, char* argv[]) {
             delete root;
             }
             catch (const std::exception& e) {
-                std::cerr << "ERRO: " << equation << " NÃO VÁLIDA" << e.what() << std::endl;
+                std::cerr << "ERRO: " << equation << " NÃO É VÁLIDA" << e.what() << std::endl;
             }
         }
 
