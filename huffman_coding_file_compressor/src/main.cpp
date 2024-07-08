@@ -8,6 +8,7 @@ using namespace Huffman;
 
 int main(int argc, char *argv[]) {
     if(argc != 4) {
+        printf("Algo de errado aconteceu, veja: \n");
         printf("Como utilizar:\n (./a.out) (-c ArquivoASerComprimido ArquivoOndeSeráfeitaACompressão | -d ArquivoComprimido ArquivoOndeSeráfeitaADescompressão)");
         exit(-1);
     }
