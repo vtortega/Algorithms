@@ -6,6 +6,10 @@
 #include <climits>
 #include <queue>
 
+
+// year will represent the year this edge will be available.
+// time will represent the time to pass through it.
+// cost will represent the cost of this path.
 struct Edge 
 {
     int src, dest;      
@@ -19,6 +23,7 @@ struct Edge
     }
 };
 
+# Makes it easier for going through the edges.
 class Graph 
 {
 private:
