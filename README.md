@@ -1,4 +1,4 @@
 # Algorithms
-Bundle of some of algorithms I made through time.
+Bundle of some cool algorithms implementations.
 
 See each folder for its respective description and code.
